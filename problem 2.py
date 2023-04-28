@@ -7,3 +7,15 @@ print("\033[95m=" * 42)
 # and create a program that will output the name of the student which have the highest gwa,
 # including its grades in the output.
 
+# pseudocode
+# create a text file that contains names and gwa of 20 students
+# open the text file and read it
+# set the variables
+# construct the loop with related various methods
+# recognize each line having two variables
+# establish the two variables to one
+# convert the gwa to float
+# check the gwa line by line to get the highest gwa and its name of the student
+# define the variables
+# run the program
+# print the output
