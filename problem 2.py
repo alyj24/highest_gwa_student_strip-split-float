@@ -15,7 +15,9 @@ with open("students_name_gwa.txt", "r") as problem_two_numbers_file:
      highest_general_weighted_average = 5.0
      name_student = ""
 # construct the loop with related various methods
-# recognize each line having two variables
+     for line in problem_two_numbers_file:
+          student_gwa = line.strip().split(",")
+     # recognize each line having two variables
 # establish the two variables to one
 # convert the gwa to float
 # check the gwa line by line to get the highest gwa and its name of the student
