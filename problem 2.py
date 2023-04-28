@@ -16,18 +16,22 @@ with open("students_name_gwa.txt", "r") as problem_two_numbers_file:
      name_student = ""
 # construct the loop with related various methods
      for line in problem_two_numbers_file:
-          student_gwa = line.strip().split(",")
+        student_gwa = line.strip().split(",")
      # recognize each line having two variables
-       if len(student_gwa) !=2:
+        if len(student_gwa) !=2:
             continue
      # establish the two variables to one
-       name, gwa = student_gwa
+        name, gwa = student_gwa
      # convert the gwa to float
-       gwa = float(gwa)
+        gwa = float(gwa)
      # check the gwa line by line to get the highest gwa and its name of the student
-       if gwa < highest_general_weighted_average:
+        if gwa < highest_general_weighted_average:
      # define the variables
           highest_general_weighted_average = gwa
           name_student = name
 # run the program
 # print the output
+print("\033[94m^" * 78)
+print(f"\033[93mThe student with the highest GWA is", name_student, "having its grade of", highest_general_weighted_average, ".")
+print("\033[94m^" * 78)
+print("\033[91mYahoo, Congrats!")
