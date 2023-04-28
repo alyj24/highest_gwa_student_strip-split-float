@@ -22,7 +22,8 @@ with open("students_name_gwa.txt", "r") as problem_two_numbers_file:
             continue
      # establish the two variables to one
        name, gwa = student_gwa
-# convert the gwa to float
+     # convert the gwa to float
+       gwa = float(gwa)
 # check the gwa line by line to get the highest gwa and its name of the student
 # define the variables
 # run the program
