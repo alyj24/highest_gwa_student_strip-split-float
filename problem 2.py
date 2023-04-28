@@ -12,6 +12,8 @@ print("\033[95m=" * 42)
 # open the text file and read it
 with open("students_name_gwa.txt", "r") as problem_two_numbers_file:
 # set the variables
+     highest_general_weighted_average = 5.0
+     name_student = ""
 # construct the loop with related various methods
 # recognize each line having two variables
 # establish the two variables to one
