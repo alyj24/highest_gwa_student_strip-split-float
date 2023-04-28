@@ -10,10 +10,15 @@ With this program, it felt familiar to me having this code but eventually it jus
 pycharm64.exe
 # Usage
 line.strip() - it removes the whitespace from the beginning and at the end of the string.
+
 line.split() - returns a list of the words in the string or line, separated by the delimeter string.
+
 float() - returns the value based on the argument or parameter value that is being passed to it.
 # Launch
-$ git clone
+$ git clone https://github.com/alyj24/highest_gwa_student_strip-split-float.git
+
 $ git add -A
+
 $ git commit -m ""
+
 $ git pushh
