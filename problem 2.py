@@ -24,7 +24,10 @@ with open("students_name_gwa.txt", "r") as problem_two_numbers_file:
        name, gwa = student_gwa
      # convert the gwa to float
        gwa = float(gwa)
-# check the gwa line by line to get the highest gwa and its name of the student
-# define the variables
+     # check the gwa line by line to get the highest gwa and its name of the student
+       if gwa < highest_general_weighted_average:
+     # define the variables
+          highest_general_weighted_average = gwa
+          name_student = name
 # run the program
 # print the output
