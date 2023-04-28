@@ -10,6 +10,7 @@ print("\033[95m=" * 42)
 # pseudocode
 # create a text file that contains names and gwa of 20 students
 # open the text file and read it
+with open("students_name_gwa.txt", "r") as problem_two_numbers_file:
 # set the variables
 # construct the loop with related various methods
 # recognize each line having two variables
