@@ -18,6 +18,8 @@ with open("students_name_gwa.txt", "r") as problem_two_numbers_file:
      for line in problem_two_numbers_file:
           student_gwa = line.strip().split(",")
      # recognize each line having two variables
+       if len(student_gwa) !=2:
+            continue
 # establish the two variables to one
 # convert the gwa to float
 # check the gwa line by line to get the highest gwa and its name of the student
